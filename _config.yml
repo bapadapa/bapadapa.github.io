@@ -28,7 +28,7 @@ repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/Parkjc98_2.jpg" # 로고 추가
 masthead_title: # overrid s the website title displayed in the masthead, use " " for no title
-futrue: true
+
 breadcrumbs: true # 네비게이션 메뉴
 words_per_minute: 200
 comments:
@@ -284,3 +284,4 @@ defaults:
       published: true
 #date_format: "%Y-%m-%d" # date형식을 바꾸고 싶으면 바꾸면됨
 
+future: true
