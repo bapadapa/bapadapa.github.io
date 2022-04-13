@@ -12,13 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+# minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+#dark ,
 # Site Settings
-locale: "UTF-8"
+locale: "utf-8"
 title: "Bapa's"
 title_separator: "-"
-subtitle: "심심한 블로그"
+subtitle: "심심해서 만든 블로그"
 name: "Bapa"
 description: "An amazing website."
 url: "https://bapadapa.github.io"
@@ -103,8 +104,8 @@ analytics:
 author:
   name: "Bapadapa"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
+  bio: "SNS는 귀찮아서 잘 안해요."
+  location: "Seoul"
   email:
   links:
     - label: "Email"
@@ -137,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/bapadapa"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
