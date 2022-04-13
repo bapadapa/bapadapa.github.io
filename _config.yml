@@ -282,3 +282,4 @@ defaults:
       show_date: true
       published: true
 #date_format: "%Y-%m-%d" # date형식을 바꾸고 싶으면 바꾸면됨
+futrue: true
