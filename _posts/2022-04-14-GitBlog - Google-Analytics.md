@@ -1,17 +1,13 @@
 ---
 layout: single
 title: "GitBlog - Google Analytics"
+categories: Gitblog
 ---
 
-> ## GItblog 기본 구축
->
-> > 1.  [GitBlog-기본환경]({{site.url}}/GitBlog-기본환경)
-> > 1.  [GitBlog-댓글]({{site.url}}/GitBlog-댓글)
-> > 1.  [GitBlog-방문자 분석 - **Google-Analytics**]({{site.url}}/GitBlog-Google-Analytics)
+---
 
-> ## 에러 해결
->
-> > 1.  [GitBlog-포스팅실패]({{site.url}}/GitBlog-포스팅실패)
+{% capture my_index %}{%include_relative index/github_init_index.md %}{% endcapture %}
+{{ my_index | markdownify }}
 
 ---
 
