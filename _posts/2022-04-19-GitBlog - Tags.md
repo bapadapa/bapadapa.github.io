@@ -12,18 +12,18 @@ tag: [blog, git, init]
 
 ---
 
-## \_pages 에 tag-archive.md 추가
-
-```yml
----
-title: "Tag"
-layout: "tags"
-permalink: /tags/
-author_profile: true
-sidebar_main: true
----
-```
-
+> ## \_pages 에 tag-archive.md 추가
+>
+> > ```yml
+> > ---
+> > title: "Tag"
+> > layout: "tags"
+> > permalink: /tags/
+> > author_profile: true
+> > sidebar_main: true
+> > ---
+> > ```
+>
 > ## \_data/navigation.yml 에 아래 값 추가
 >
 > > ```yml
