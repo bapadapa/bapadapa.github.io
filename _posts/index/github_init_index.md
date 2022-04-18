@@ -6,6 +6,7 @@
 > > 1. [GitBlog-**댓글**]({{site.url}}/gitblog/GitBlog-댓글)
 > > 1. [GitBlog-**방문자 분석** With **Google-Analytics**]({{site.url}}/gitblog/GitBlog-Google-Analytics)
 > > 1. [GitBlog-**카테고리**]({{site.url}}/gitblog/GitBlog-Category)
+> > 1. [GitBlog-**태그**]({{site.url}}/gitblog/GitBlog-Tags)
 
 > ## 에러 해결
 >
