@@ -2,6 +2,7 @@
 layout: single
 title: "GitBlog - Google Analytics"
 categories: Gitblog
+tag: [blog, git, init]
 ---
 
 ---

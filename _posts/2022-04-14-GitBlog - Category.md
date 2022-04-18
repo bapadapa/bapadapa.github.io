@@ -2,6 +2,7 @@
 layout: single
 title: "GitBlog - Category"
 categories: Gitblog
+tag: [blog, git, init]
 ---
 
 ---
