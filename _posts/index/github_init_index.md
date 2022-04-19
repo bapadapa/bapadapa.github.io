@@ -9,6 +9,7 @@
 > > 1. [GitBlog-**태그**]({{site.url}}/gitblog/GitBlog-Tags)
 > > 1. [GitBlog-**목차**]({{site.url}}/gitblog/GitBlog-TOC)
 > > 1. [GitBlog-**검색엔진**]({{site.url}}/gitblog/GitBlog-SearchEngine)
+> > 1. [GitBlog-**내부검색**]({{site.url}}/gitblog/GitBlog-내부검색)
 
 > 에러 해결
 >
