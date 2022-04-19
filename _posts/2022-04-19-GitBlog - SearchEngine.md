@@ -34,15 +34,22 @@ tag: [blog, git, init]
 1.  [NAVER Search Advisor](https://searchadvisor.naver.com/)에 들어가서 `웹마스터 도구`를 눌러준다
 1.  Google과 동일하게 본인 블로그 URL을 삽입해준다.
     - https://bapadapa.github.io
-1.  HTML 태그라고 적혀있는곳에서 Content="~~~" 값을 복사해서 \_config.xml에 삽입해 준다.
+1.  HTML 태그라고 적혀있는곳에서 Content="abcde~~" 값을 복사해서 \_config.xml에 삽입해 준다.
 
-        ```yml
-        # SEO Related
-        google_site_verification:
-        bing_site_verification:
-        naver_site_verification: "Content=여기에 들어간 값을 삽입해준다."
-        yandex_site_verification:
-        baidu_site_verification:
-        ```
+    ```yml
+    # 약 75번.
+    # SEO Related
+    google_site_verification:
+    bing_site_verification:
+    naver_site_verification: "abcde~~"
+    yandex_site_verification:
+    baidu_site_verification:
+    ```
 
 1.  모두 삽입하였으면 Push 해준다.
+
+1.  Push 및 Debug가 완료되면 **소유확인**을 눌러준다
+
+1.  소유 확인이 완료되면 , `사이트 목록`에서 등록한 사이트를 클릭해준다.
+1.  우측 요청 - 사이트맵 제출을 클릭하여 위 Google과 동일하게 stiemap.xml을 추가시켜준다.
+1.  검증에 들어가서 웹 페이지 최적화를 실행시켜보면, 등록이 잘 되었는지 확인할 수 있다.
