@@ -284,7 +284,8 @@ defaults:
       share: true
       related: true
       show_date: true
-
+      sidebar:
+        nav: "docs"
 #date_format: "%Y-%m-%d" # date형식을 바꾸고 싶으면 바꾸면됨
 
 future: true
