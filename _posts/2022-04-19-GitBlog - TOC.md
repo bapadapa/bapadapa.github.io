@@ -12,6 +12,8 @@ tag: [blog, git, init]
 
 ---
 
+# TOC ( Table of Contents ) 목차 추가하기!
+
 > ## option 에 toc: true 추가
 >
 > > ```yml

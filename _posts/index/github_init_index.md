@@ -12,4 +12,4 @@
 
 > 에러 해결
 >
-> > 1. [GitBlog-포스팅실패]({{site.url}}/gitblog/GitBlog-포스팅실패)
+> > 1. [GitBlog-**포스팅실패**]({{site.url}}/gitblog/GitBlog-포스팅실패)

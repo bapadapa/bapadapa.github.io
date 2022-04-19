@@ -12,6 +12,8 @@ tag: [blog, git, init]
 
 ---
 
+# Gitblog에 Tag를 추가하기
+
 > ## \_pages 에 tag-archive.md 추가
 >
 > > ```yml

@@ -14,36 +14,36 @@ tag: [blog, git, init]
 
 # 카테고리 생성하기
 
-> ## `_config.yml` 의 주석 풀기
->
-> ```yml
->  jekyll-archives:
->      enabled:
->       - categories
->        - tags
->       layouts:
->        category: archive-taxonomy
->        tag: archive-taxonomy
->      permalinks:
->        category: /categories/:name/
->        tag: /tags/:name/
-> ```
+## `_config.yml` 의 주석 풀기
 
-> ## `_Pages` 및 `category-archive.md` 생성
->
-> 1. Root 에 \_Pages 디렉토리생성
-> 1. \_Pages안에 `category-archive.md` 파일 생성
-> 1. category-archive.md 안에 아래 코드삽입
->
-> ```yml
-> ---
-> title: "Category"
-> layout: "categories"
-> permalink: /categories/
-> author_profile: true
-> sidebar_main: true
-> ---
-> ```
+```yml
+ jekyll-archives:
+     enabled:
+      - categories
+       - tags
+      layouts:
+       category: archive-taxonomy
+       tag: archive-taxonomy
+     permalinks:
+       category: /categories/:name/
+       tag: /tags/:name/
+```
+
+## `_Pages` 및 `category-archive.md` 생성
+
+1.  Root 에 \_Pages 디렉토리생성
+1.  \_Pages안에 `category-archive.md` 파일 생성
+1.  category-archive.md 안에 아래 코드삽입
+
+```yml
+---
+title: "Category"
+layout: "categories"
+permalink: /categories/
+author_profile: true
+sidebar_main: true
+---
+```
 
 > ## `_data`의 `navigation.yml`
 >
