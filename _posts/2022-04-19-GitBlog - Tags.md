@@ -2,7 +2,7 @@
 layout: single
 title: "GitBlog - Tags"
 categories: Gitblog
-tag: [blog, git, init]
+tag: [blog, git, init, 깃, 블로그]
 ---
 
 ---
