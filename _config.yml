@@ -277,12 +277,14 @@ defaults:
       type: posts
     values:
       layout: single
+      toc: true
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
       show_date: true
+
 #date_format: "%Y-%m-%d" # date형식을 바꾸고 싶으면 바꾸면됨
 
 future: true
