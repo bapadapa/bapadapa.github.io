@@ -65,3 +65,16 @@ tag: [blog, git, init, 깃, 블로그]
 > **색인 생성 요청**을 눌러도 되겠지만, 오른쪽 상단에 있는 테스트를 하고, **색인 생성 요청**을 눌러보는게 좋을 것 같다.
 >
 > 오늘 URL 검사를 눌러놨으니, 몇일 뒤에 확인해 봐야겠다.
+
+> 추가적으로 설정 - 소유권 인증 - hTML 태그에서
+>
+> `<meta name="google-site-verification" content=" ~~VerificationCode~~ " />` 를 찾고
+>
+> \_config.yml 안에서 VerificationCode 값을 아래 위치에 추가해줌 ( 약 76번째 줄)
+>
+> > ```yml
+> > # SEO Related
+> > google_site_verification: "VerificationCode"
+> > ```
+> >
+> > 하지만 여전히 안됨.
