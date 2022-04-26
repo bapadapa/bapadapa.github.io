@@ -24,6 +24,10 @@ tag: [blog, git, init, LATAX, 수식]
   type="text/javascript"
   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 ></script>
+
+<!-- 위에 것이 안 되면 아래 것을 추가 해보자!  본인은 아래 script가 성공함 -->
+<!-- MATHJAX -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 ```
 
 끝
