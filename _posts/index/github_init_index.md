@@ -13,6 +13,7 @@ GItblog 기본 구축
 1.  [**내부검색**]({{site.url}}/gitblog/GitBlog-내부검색)
 1.  [**SideIndex 추가하기**]({{site.url}}/gitblog/GitBlog-sidebar인덱스)
 1.  [**폰트 변경하기**]({{site.url}}/gitblog/GitBlog-Font)
+1.  [**LATAX 추가하기 ( 수식 사용하기 )**]({{site.url}}/gitblog/GitBlog-LATAX)
 
 > 에러 해결
 
