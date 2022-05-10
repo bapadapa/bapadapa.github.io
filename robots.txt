@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bapadapa.github.io/sitemap.xml
