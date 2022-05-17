@@ -19,7 +19,7 @@ minimal_mistakes_skin: "neon"
 locale: ko-KR" # 지역
 title: "Bapa's"
 title_separator: "-"
-subtitle: "심심해서 만든 블로그"
+subtitle: "미래의 내가 과거의 나한테 물어보기 위한 블로그"
 name: "Bapa"
 description: "언젠간 잘하겠지뭐~."
 url: "https://bapadapa.github.io"
@@ -74,6 +74,7 @@ google:
   instant_search: true # false (default), true
 
 # SEO Related
+google-site-verification=_V0FErpU6CYnocvoH42XAbDI9Oj5RYyo41xoBybnQiE
 google_site_verification: "BtI8kvXOjEV63aDDAFF1i-b6vXqYMS1R7XojWByQTuA"
 bing_site_verification:
 naver_site_verification: "9d8a455380bce1b210deb7cd5f65cfc45b522cd4"
