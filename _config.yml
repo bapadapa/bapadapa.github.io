@@ -24,7 +24,7 @@ name: "Bapa"
 description: "언젠간 잘하겠지뭐~."
 url: "https://bapadapa.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "bapadapa/bapadapa.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "bapadapa/Image-Comment" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/Parkjc98_2.jpg" # 로고 추가
 masthead_title: # overrid s the website title displayed in the masthead, use " " for no title
