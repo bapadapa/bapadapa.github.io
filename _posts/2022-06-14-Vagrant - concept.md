@@ -27,6 +27,7 @@ Virtualbox, VMWare 등을 이용하여 가상환경을 생성 및 유지보수�
 ![vagrant](https://user-images.githubusercontent.com/53324492/173600560-de544b97-f143-4a7a-96c4-0249dcc849ed.png)
 
 Vagrant구축 시 Shell을 구현할 수 있다.
+
 구현한 shell은 아래 그림과 같이 **/tmp/vagrant-shell** 로 생성된다.
 
-![vagrant-shell](https://user-images.githubusercontent.com/53324492/173600718-c27c9d8f-b7e3-4d36-85a9-7f57b74142d6.png)
+생성하고 구경해보자.
