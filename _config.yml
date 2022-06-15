@@ -107,10 +107,10 @@ analytics:
 # Site Author
 author:
   name: "Bapadapa"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "SNS는 귀찮아서 잘 안해요."
+  avatar: "/assets/images/Parkjc98_2.jpg"
+  bio: "공부 보단 에러 및 해결 방법 기록을 위해 작성중"
   location: "Seoul"
-  email:
+  email: "painclown@gmail.com"
   links:
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
