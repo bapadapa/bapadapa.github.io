@@ -21,11 +21,25 @@ More details here: http://curl.haxx.se/docs/sslcerts.html
 curl performs SSL certificate verification by default, using a "bundle" of Certificate Authority (CA) public keys (CA certs). If the default bundle file isn't adequate, you can specify an alternate file using the --cacert option.
 If this HTTPS server uses a certificate signed by a CA represented in the bundle, the certificate verification probably failed due to a problem with the ertificate (it might be expired, or the name might not match the domain name in the URL).
 If you'd like to turn off curl's verification of the certificate, us the -k (or --insecure) option.
+
+혹은
+
+schannel: next InitializeSecurityContext failed: Unknown error (0x80092013) - 해지 서버가 오프라인이므로 해지를 확인하지 못했습니다.
+
 ```
 
-> 위 글을 보면 CA 즉 *자격검증*을 실패했다는 의미이다.
+> 처음 위와 같은 에러를 발견했을때 해지서버가 뭔지 몰랐었는데, 간단했다.
 >
-> 간단하게 해결하고 싶다면, 가장 마지막 문구, --insecure 옵션을 추가해서 설치해면 된다.
+> 위 글을 보면 _CA(Certificate Authority)_ 즉 *자격검증*을 실패<해지 서버(revocation server
+> )를 확인 못함>했다는 의미이다.
+
+## 해지(폐기) 서버?
+
+> 통신 시 Client는 Server에게 받은 *SSL인증서 (CA)*의 유효성을 검사하는 메커니즘이 있다.
+>
+> 이때 CRL (Certificate Revocation Lists)이라는 인증서가 정상이 아니라고 판단된 인증서 폐기(해지) 목록이 있다.
+>
+> 위 에러는 CRL에 접근을 제대로 하지 못하여, 현재 사용하는 인증서가 *정상여부 판단을 못하는 것*이다.
 
 # Simple Solutition
 
@@ -50,6 +64,8 @@ Enter your choice: 3
 ```
 
 > 위와 같이 `vagrant box add https://app.vagrantup.com/centos/boxes/7 --insecure --name centos/7` 를 삽입해서 진행하면 된다.
+>
+> 필자는 _guest additions_ 에러가 발생하여 최종적으로는 _centoy/7_ 박스가 아닌, vbguest가 설치된 _bento/centos-7.9_ 를 설치했다.
 
 # Other Solution?
 
