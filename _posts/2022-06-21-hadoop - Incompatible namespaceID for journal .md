@@ -50,9 +50,11 @@ namespaceID는 아래와 같이 변경해준다.
 
 ![cluster id 2](https://user-images.githubusercontent.com/53324492/174823822-ce2b461a-acc4-47da-96c8-287a31d1a809.png)
 
-위와같은 방법을 할 줄 모르겠다면, 아래와 같이 본인이 지정한 Namenode 경로를 들어가 VERSION안의 내용을 확인 후 맵필해주면 된다. (옛날에 캡쳐한거라, 버전 정보가 다르다.)
+위와같은 방법을 할 줄 모르겠다면, 아래와 같이 본인이 지정한 Namenode 경로를 들어가 VERSION안의 내용을 확인 후 맵핑해주면 된다. (옛날에 캡쳐한거라, 버전 정보가 다르다.)
 
 ![NameNode Version](https://user-images.githubusercontent.com/53324492/174824526-ca5e628c-4cf2-45c1-a4a5-edfc3de88213.png)
+
+> 모든 설정을 하면 당연히 재구동 시켜야한다. 변경된 내용을 알아서 가져오지 않는다.
 
 # 결론
 
