@@ -22,6 +22,7 @@ tag: [Network, port forwarding, 포트포워딩, IPTIME]
 ## IPTIME
 
 IPTIME에서 우선 PortFoward를 해준다.
+
 고급설정 – NAT/라우터 관리 – 포트포워드 설정
 
 ![IPTIME 설정](https://user-images.githubusercontent.com/53324492/176210019-1bc35767-1a53-4e48-9a9c-229b2ff3fee6.png)
@@ -108,7 +109,7 @@ firewall-cmd --list-ports
 1. 가상머신 : Virtual box
 1. 가상머신 OS : Centos07
 
-위와 같이 3가지 조건이면, 왠만하면 포트가 성공적으로 열릴 것 이다.
+위와 같이 4가지 조건이면, 왠만하면 포트가 성공적으로 열릴 것 이다.
 
 성공여부는 Ping을 보내서 확인해보면 된다.
 
