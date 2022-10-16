@@ -14,6 +14,8 @@ Windows 10 Pro 이다.
 Home Edition은 추가로 설청해야 할 것이 있다던데, 추후 `Window 11 Home` 으로 다시 설치할 예정이니
 그때 추가하겠다.
 
+- window 11 로 설치해본 결과 아래 과정을 동일하게 수행하면 된다.
+
 # 도커 설치
 
 ## Docker*Desktop_Install*설치
@@ -32,14 +34,14 @@ Home Edition은 추가로 설청해야 할 것이 있다던데, 추후 `Window 1
 
 2.  그러면 아래와 같은 Enable 명령어를 제공한다. 이것을 Powershell을 관리자 권한으로 실행 후 실행시켜주면 된다.
 
-```
-powershell Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+```powershell
+  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ```
 
 - 위 명령어를 실행시키면 컴퓨터를 재시작하라고 할 것이다. 추가로 1개의 명령어를 실행시켜야하니 N을 눌러주고 다음 명령어를 실행시킨다.
 
-```
-powershell Enable-WindowsOptionalFeature -Online -FeatureName containers -Al
+```powershell
+  Enable-WindowsOptionalFeature -Online -FeatureName containers -Al
 ```
 
 ## WSL 2 업데이트
